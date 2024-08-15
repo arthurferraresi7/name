@@ -1,0 +1,112 @@
+/* Estilização geral da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.corpo {
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f4f9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container centralizado para conteúdo */
+.container {
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border: 1px solid #e0aaff; /* Borda roxa clara */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; /* Largura máxima do container */
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para o título principal */
+.titulo {
+    color: #d633f1; /* Cor roxa vibrante para o título */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os links */
+.link {
+    color: #d633f1; /* Cor roxa para links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 0 10px; /* Espaçamento ao redor dos links */
+}
+
+.link:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilo para a lista de itens */
+.lista {
+    list-style-type: none; /* Remove marcadores padrão */
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    background-color: #f6d7ff; /* Cor de fundo rosa claro para itens */
+    border: 1px solid #d633f1; /* Borda roxa para itens */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 10px;
+    margin-bottom: 10px; /* Espaçamento entre itens */
+}
+
+/* Estilo para os formulários */
+.formulario {
+    margin: 20px 0;
+}
+
+.rotulo {
+    display: block;
+    margin-bottom: 5px;
+    color: #d633f1; /* Cor roxa para labels */
+}
+
+.campo-texto {
+    width: calc(100% - 22px); /* Ajusta largura dos campos */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d633f1; /* Borda roxa para campos de input */
+    border-radius: 4px; /* Cantos arredondados */
+}
+
+.botao {
+    background-color: #d633f1; /* Cor de fundo roxa para botões */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: #c020f0; /* Cor roxa mais escura ao passar o mouse */
+}
+
+/* Estilo para o link de retorno */
+.link-retorno {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+

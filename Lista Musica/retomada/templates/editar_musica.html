@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Música</title>
+    <link rel="stylesheet" href="../static/estilo.css">
+</head>
+<body class="corpo">
+    <div class="container">
+        <h1 class="titulo">Editar Música</h1>
+        <form class="formulario" method="POST" action="/editar_musica/{{ musica[0] }}">
+            <label class="rotulo" for="nome">Nome:</label>
+            <input class="campo-texto" type="text" id="nome" name="nome" value="{{ musica[1] }}" required>
+            <label class="rotulo" for="telefone">Telefone:</label>
+            <input class="campo-texto" type="text" id="telefone" name="telefone" value="{{ musica[2] }}" required>
+            <label class="rotulo" for="artista">Artista:</label>
+            <input class="campo-texto" type="text" id="artista" name="artista" value="{{ musica[3] }}" required>
+            <button class="botao" type="submit">Salvar</button>
+        </form>
+        <a class="link-retorno" href="/">Voltar para a lista</a>
+    </div>
+</body>
+</html>
