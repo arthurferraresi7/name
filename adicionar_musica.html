@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Música</title>
+    <link rel="stylesheet" href="../static/estilo.css">
+</head>
+<body class="corpo">
+    <div class="container">
+        <h1 class="titulo">Adicionar Nova Música</h1>
+        <form class="formulario" method="POST" action="/adicionar_musica">
+            <label class="rotulo" for="nome">Nome:</label>
+            <input class="campo-texto" type="text" id="nome" name="nome" required>
+            <label class="rotulo" for="telefone">Telefone:</label>
+            <input class="campo-texto" type="text" id="telefone" name="telefone" required>
+            <label class="rotulo" for="artista">Artista:</label>
+            <input class="campo-texto" type="text" id="artista" name="artista" required>
+            <button class="botao" type="submit">Adicionar</button>
+        </form>
+        <a class="link-retorno" href="/">Voltar para a lista</a>
+    </div>
+</body>
+</html>
+
